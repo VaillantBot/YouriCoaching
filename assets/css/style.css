@@ -511,3 +511,18 @@ span {
         font-size: 1.8rem;
     }
 }
+
+/* Ajoutez ceci à votre style.css */
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
