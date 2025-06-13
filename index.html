@@ -3,131 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youri Fitness - Coach Sportif Personnel</title>
+    <title>Youri Fitness - Transformez votre corps</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Barre de navigation -->
     <nav class="navbar">
-        <div class="navbar-container">
-            <a href="index.html" class="logo">Youri<span>Fitness</span></a>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+        <div class="container">
+            <a href="index.html" class="logo">YOURI<span>FITNESS</span></a>
+            <div class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="coaching.html">Programmes</a>
+                <a href="resultats.html">Résultats</a>
+                <a href="blog.html">Conseils</a>
+                <a href="a-propos.html">Mon Histoire</a>
+                <a href="contact.html" class="cta-nav">Contact</a>
             </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="coaching.html">Coaching</a></li>
-                <li><a href="resultats.html">Résultats</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="a-propos.html">À propos</a></li>
-                <li><a href="contact.html" class="nav-cta">Contact</a></li>
-            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </nav>
 
-    <header class="hero fade-in">
-        <div class="hero-content">
-            <h1>Transformez votre corps, <span>Libérez votre potentiel</span></h1>
-            <p>Avec Youri Fitness, atteignez vos objectifs grâce à un coaching 100% personnalisé et scientifiquement prouvé.</p>
-            <a href="coaching.html" class="cta-button">Commencer maintenant <i class="fas fa-arrow-right"></i></a>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>RÉVÉLEZ VOTRE <span>MEILLEURE VERSION</span></h1>
+                <p class="subtitle">Coaching sportif sur mesure pour des transformations durables</p>
+                <a href="coaching.html" class="cta-button">Démarrer ma transformation <i class="fas fa-arrow-right"></i></a>
+            </div>
         </div>
-        <div class="hero-image">
-            <img src="assets/images/youri-hero.jpg" alt="Youri Fitness - Coach Sportif">
-        </div>
+        <div class="hero-overlay"></div>
     </header>
 
-    <section class="reassurance">
+    <!-- Section Programmes -->
+    <section class="programs">
         <div class="container">
-            <div class="reassurance-item">
-                <i class="fas fa-trophy gold-icon"></i>
-                <h3>+150 clients satisfaits</h3>
-            </div>
-            <div class="reassurance-item">
-                <i class="fas fa-clock gold-icon"></i>
-                <h3>Programmes sur mesure</h3>
-            </div>
-            <div class="reassurance-item">
-                <i class="fas fa-heartbeat gold-icon"></i>
-                <h3>Approche scientifique</h3>
-            </div>
-        </div>
-    </section>
-
-    <section class="programs-preview">
-        <div class="container">
-            <h2 class="section-title">Mes <span>Programmes</span></h2>
+            <h2 class="section-title">MES <span>PROGRAMMES</span></h2>
+            
             <div class="programs-grid">
-                <div class="program-card slide-in">
-                    <h3>Coaching à distance</h3>
-                    <p>Séances personnalisées, suivi quotidien, ajustements en temps réel.</p>
-                    <a href="coaching.html" class="cta-button secondary">Découvrir</a>
-                </div>
-                <div class="program-card slide-in">
-                    <h3>Suivi nutritionnel</h3>
-                    <p>Plan alimentaire adapté à vos goûts et objectifs, avec suivi hebdomadaire.</p>
-                    <a href="coaching.html" class="cta-button secondary">Découvrir</a>
-                </div>
-                <div class="program-card slide-in">
-                    <h3>Transformation complète</h3>
-                    <p>12 semaines pour une métamorphose physique et mentale.</p>
-                    <a href="coaching.html" class="cta-button secondary">Découvrir</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonials-preview">
-        <div class="container">
-            <h2 class="section-title">Ils m'ont <span>fait confiance</span></h2>
-            <div class="testimonial-card fade-in">
-                <img src="assets/images/client1.jpg" alt="Témoignage client">
-                <div class="testimonial-content">
-                    <p>"Youri a complètement changé ma vision du sport. En 3 mois, j'ai obtenu des résultats que je n'aurais jamais imaginés possibles."</p>
-                    <h4>Marie, 28 ans</h4>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-laptop-code"></i>
                     </div>
+                    <h3>Coaching Digital</h3>
+                    <p class="price">199€<span>/mois</span></p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Suivi 100% personnalisé</li>
+                        <li><i class="fas fa-check"></i> Accès à l'app mobile</li>
+                        <li><i class="fas fa-check"></i> Vidéos explicatives</li>
+                    </ul>
+                    <a href="coaching.html" class="cta-button outline">Découvrir</a>
                 </div>
+                
+                <!-- 2 autres programmes similaires -->
             </div>
-            <a href="resultats.html" class="cta-button outline">Voir tous les résultats</a>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
+            <div class="footer-grid">
+                <div class="footer-col">
                     <h3>Youri Fitness</h3>
-                    <p>Coach sportif personnel spécialisé dans la transformation physique et mentale.</p>
+                    <p>Transformez votre corps, libérez votre potentiel.</p>
                 </div>
-                <div class="footer-section">
-                    <h3>Liens rapides</h3>
-                    <ul>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="coaching.html">Coaching</a></li>
-                        <li><a href="resultats.html">Résultats</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="a-propos.html">À propos</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                <div class="footer-col">
+                    <h3>Liens</h3>
+                    <a href="legal.html">Mentions légales</a>
+                    <a href="privacy.html">Confidentialité</a>
                 </div>
-                <div class="footer-section">
+                <div class="footer-col">
                     <h3>Contact</h3>
-                    <p><i class="fas fa-envelope"></i> titouan.lay@gmail.com</p>
+                    <a href="mailto:titouan.lay@gmail.com">titouan.lay@gmail.com</a>
                     <div class="social-links">
-                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://discord.gg/" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>© 2025 Youri Fitness. Tous droits réservés. | <a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a></p>
+            <div class="copyright">
+                © 2023 Youri Fitness. Tous droits réservés.
             </div>
         </div>
     </footer>
